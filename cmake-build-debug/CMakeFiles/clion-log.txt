@@ -1,0 +1,30 @@
+/snap/clion/163/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/daniel/Documents/Vention/ClionWorkspace/AnjayTest
+CMake Warning (dev) at /snap/clion/163/bin/cmake/linux/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (mbedTLS)
+  does not match the name of the calling package (MbedTLS).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/lib/avs_commons/cmake/FindMbedTLS.cmake:127 (find_package_handle_standard_args)
+  /usr/local/lib/avs_commons/avs_commons-config.cmake:24 (find_package)
+  /usr/local/lib/anjay/anjay-config.cmake:22 (find_package)
+  CMakeLists.txt:6 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found mbedTLS: /usr/include (found version "2.16.3") 
+CMake Warning (dev) at /snap/clion/163/bin/cmake/linux/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (mbedTLS)
+  does not match the name of the calling package (MbedTLS).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/local/lib/avs_commons/cmake/FindMbedTLS.cmake:127 (find_package_handle_standard_args)
+  /usr/local/lib/avs_commons/avs_commons-config.cmake:24 (find_package)
+  /usr/local/lib/avs_coap/avs_coap-config.cmake:20 (find_package)
+  /usr/local/lib/anjay/anjay-config.cmake:27 (find_package)
+  CMakeLists.txt:6 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daniel/Documents/Vention/ClionWorkspace/AnjayTest/cmake-build-debug

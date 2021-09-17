@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daniel/Documents/Vention/ClionWorkspace/AnjayTest/main.c
+stdio.h
+-
+anjay/anjay.h
+-
+anjay/security.h
+-
+anjay/attr_storage.h
+-
+anjay/server.h
+-
+poll.h
+-
+
